@@ -4,6 +4,7 @@ import styled from "styled-components";
 const CardBox = styled.div`
 	width: fit-content !important;
 	max-width: 90%;
+	max-height: 80vmax !important;
 	background: #b1b0aa;
 	display: flex;
 	flex-direction: column;
@@ -27,12 +28,18 @@ const Img = styled.img`
 		max-width: 80vmin;
 		max-height: 65vmax !important;
 	}
+	@media (max-width: 425px) {
+		max-height: 55vmax !important;
+	}
 `;
 
 const Label = styled.div`
 	width: 100%;
 	@media (max-width: 780px) {
 		max-width: 80vmin;
+	}
+	@media (max-width: 425px) {
+		max-width: 65vmin;
 	}
 `;
 
