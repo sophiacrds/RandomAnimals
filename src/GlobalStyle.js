@@ -7,7 +7,10 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     color: black; // important to reset the default mode of IOS buttons
-    background-color: white;
+  }
+
+  body{
+    background: white;
   }
 
   #root{
