@@ -16,7 +16,7 @@ O projeto em questão foi desenvolvido para estudo e aprofundamento sobre o uso 
 
 Foi utilizada a <a href="https://zoo-animal-api.herokuapp.com">Zoo Animal API</a>, que traz informações diversas como peso, comprimento, habitat e dieta, entre outros.
 
-No futuro, pretendo realizar melhorias no tange ao método de requisição e armazenamento dos dados utilizados, para otimização de performance das imagens.
+No futuro, pretendo realizar melhorias no que tange ao método de requisição e armazenamento dos dados utilizados, para otimização de performance das imagens. A página também carece de compatibilidade mobile quando em landscape mode.
 
 ## PREVIEW
 

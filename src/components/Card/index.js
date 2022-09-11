@@ -19,10 +19,11 @@ const Img = styled.img`
 	max-width: 60vmax;
 	max-height: 75vmin !important;
 	object-fit: contain;
+	overflow: hidden;
 
 	@media (max-width: 870px) {
 		max-width: 80vmin;
-		max-height: 75vmax !important;
+		max-height: 70vmax !important;
 	}
 	@media (max-width: 780px) {
 		max-width: 80vmin;
