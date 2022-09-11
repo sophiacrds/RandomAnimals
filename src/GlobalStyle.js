@@ -9,4 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     color: black; // important to reset the default mode of IOS buttons
   }
 
+  #root{
+    width: 100%;
+    height: 100vh;
+  }
 `;
