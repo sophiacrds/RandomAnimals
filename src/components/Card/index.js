@@ -44,7 +44,7 @@ const Label = styled.div`
 export default function Card(p) {
 	return (
 		<CardBox id="card">
-			<Img src={p.img} alt="" />
+			<Img src={p.img} alt={p.name} />
 			<Label>
 				<h2>{p.name}</h2>
 				<p>from {p.local}</p>
